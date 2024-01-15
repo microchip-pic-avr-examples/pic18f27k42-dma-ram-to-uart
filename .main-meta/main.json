@@ -2,29 +2,29 @@
     "metaDataVersion": "1.0.0",
     "category": "com.microchip.ide.project",
     "content": {
-        "metaDataVersion": "1.1.0",
+        "metaDataVersion": "1.3.0",
         "name": "com.microchip.mcu8.mplabx.project.",
-        "version": " ",
-        "displayName": "  ",
-        "projectName": "",
-        "shortDescription": "",
+        "version": "2.0.0",
+        "displayName": "PIC18F27K42 DMA - RAM to UART TX Buffer - Hardware Triggered Introduction",
+        "projectName": "pic18f27k42-dma-ram-to-uart",
+        "shortDescription": "Example to demonstrate DMA operation between RAM and UART TX Buffer - Hardware Triggered",
         "ide": {
-            "name": "",
-            "semverRange": ""
+            "name": "MPLAB X",
+            "semverRange": ">=5.15.00"
         },
         "compiler": [
 			{
-				"name": "",
-				"semverRange": ""
+				"name": "XC8",
+				"semverRange": "^2.0.0"
 			}
 		],
         "dfp": {
-            "name": "",
-            "semverRange": ""
+            "name": "PIC18F-K_DFP",
+            "semverRange": "^1.2.72"
         },
         "configurator": {
-            "name": "",
-            "semverRange": ""
+            "name": "MCC",
+            "semverRange": ">=3.75.00"
         },
         "device": {
             "metaDataVersion": "1.0.0",
@@ -32,26 +32,17 @@
             "content": {
                 "metaDataVersion": "1.0.0",
                 "category": "com.microchip.device",
-                "name": "",
+                "name": "PIC18F27K42",
                 "versionRange": "*"
             }
         },
-        "author": "",
-        "subcategories": [
-            "",
-            [
-               "Peripherals", ""
-            ],
-            [
-               "Peripherals", ""
-            ]            			
-        ],
+        "author": "Microchip",
         "peripherals": [
-            "",""
+            "DMA","UART","GPIO"
         ],
         "keywords": [
-            "",
-            ""			
+            "Serial Communication",
+            "DSC"			
         ],
 		"additionalData": {
 			"longDescription": {
